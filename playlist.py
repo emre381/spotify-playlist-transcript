@@ -10,7 +10,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="YOUR_CLIENT_ID",
                                                scope="user-library-read"))
 
 # INFORMATION ABOUT THE PLAYLIST 
-playlist_id = "spotify:playlist:********************" #Enter the spotifylis code end of the playlists url 
+playlist_id = "spotify:playlist:********************" #Enter the spotify list code end of the playlists url 
 results = sp.playlist_tracks(playlist_id)
 
 # SAVE THE SONGS AND ARTISTS
