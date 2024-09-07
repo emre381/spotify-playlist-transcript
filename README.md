@@ -22,5 +22,5 @@ Spotify Playlist transcript is a Python application that retrieves track informa
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/spotify-playlist-transcript.git
+   git clone https://github.com/emre381/spotify-playlist-transcript.git
    cd spotify-playlist-transcript
