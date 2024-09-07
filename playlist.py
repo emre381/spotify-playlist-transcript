@@ -4,8 +4,8 @@ import pandas as pd
 import os
 
 # Spotify ENTER API ID  INFORMATION
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="59643fc61f1948a2aed7ee3ae5738d85",
-                                               client_secret="94e4f0d3fe4c456093adcc21adfed1a5",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="YOUR_CLIENT_ID",
+                                               client_secret="YOUR_CLIENT_SECRET",
                                                redirect_uri="************************",  # Enter spesific spotify list url  
                                                scope="user-library-read"))
 
